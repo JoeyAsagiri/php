@@ -6,4 +6,6 @@ echo '<br>';
 echo '<a href="/PHP/busreis/main.php">busreis</a>';
 echo '<br>';
 echo '<a href="/PHP/zwemclub/main.php">Zwemclub</a>';
+echo '<br>';
+echo '<a href="/PHP/kapper/main.php">Kapperszaak Sanders</a>';
 ?>
