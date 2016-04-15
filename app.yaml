@@ -1,4 +1,4 @@
-application: myphp
+application: php1-1223
 version: 1
 runtime: php55
 api_version: 1
@@ -15,17 +15,6 @@ handlers:
 - url: /(.+\.php)$
   script: \1
   
-- url: .*
+- url: /.*
   script: index.php
   
-- url: /kerstboom/.*
-  script: main.php
-  
-- url: /busreis/.*
-  script: main.php
-  
-- url: /forwhile/.*
-  script: main.php
-  
-- url: /zwemclub/.*
-  script: main.php
