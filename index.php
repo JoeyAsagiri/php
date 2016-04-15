@@ -9,7 +9,7 @@ echo '<a href="/PHP/zwemclub/main.php">Zwemclub</a>';
 echo '<br>';
 echo '<a href="/PHP/kapper/main.php">Kapperszaak Sanders</a>';
 echo '<br>';
-echo '<a href="/PHP/Functies/main.php">Functies</a>';
+echo '<a href="/PHP/functies/main.php">Functies</a>';
 echo '<br>';
 echo '<a href="/PHP/includes/main.php">Includes</a>';
 ?>

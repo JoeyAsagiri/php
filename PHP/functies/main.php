@@ -28,3 +28,5 @@
 	
 	echo "<br>";
 	omkeren("Kaas is een coole jongen");
+	
+?>
