@@ -12,4 +12,8 @@ echo '<br>';
 echo '<a href="/PHP/functies/main.php">Functies</a>';
 echo '<br>';
 echo '<a href="/PHP/includes/main.php">Includes</a>';
+echo '<br>';
+echo '<a href="/PHP/dynamisch/form.html">Dynamische website</a>';
+echo '<br>';
+echo '<a href="/PHP/beasties/formulier.html">Beasties</a>';
 ?>
