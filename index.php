@@ -16,4 +16,10 @@ echo '<br>';
 echo '<a href="/PHP/dynamisch/form.html">Dynamische website</a>';
 echo '<br>';
 echo '<a href="/PHP/beasties/formulier.html">Beasties</a>';
+echo '<br>';
+echo '<a href="/PHP/login/formulier.html">Login pagina</a>';
+echo '<br>';
+echo '<a href="/PHP/loginfunctie/formulier.html">Login functie</a>';
+echo '<br>';
+echo '<a href="/PHP/adminpagina/formulier.php">Admin pagina</a>';
 ?>

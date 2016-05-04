@@ -1,0 +1,33 @@
+<?php
+$carList = array();
+$carList[0] = new Car("Rapide S", "Aston-Martin", "196000");
+$carList[1] = new Car("Continental GT", "Bentley", "169500");
+$carList[2] = new Car("Mulsanne Speed", "Bentley", "305000");
+$carList[3] = new Car("Aveo", "Chevrolet", "14200");
+$carList[4] = new Car("Camaro", "Chevrolet", "40000");
+$carList[5] = new Car("Spark", "Chevrolet", "9500");
+$carList[6] = new Car("Berlingo", "Citroen", "20300");
+$carList[7] = new Car("C4", "Citroen", "17000");
+$carList[8] = new Car("Z-Zero", "Citroen", "29900");
+$carList[9] = new Car("Enzo", "Ferrari", "250000");
+$carList[10] = new Car("500", "Fiat", "11500");
+$carList[11] = new Car("Panda", "Fiat", "9100");
+$carList[12] = new Car("Punto", "Fiat", "15600");
+$carList[13] = new Car("Accord", "Honda", "26500");
+$carList[14] = new Car("Civic", "Honda", "17800");
+$carList[15] = new Car("Jazz", "Honda", "13490");
+$carList[16] = new Car("LS 600H", "Lexus", "115200");
+$carList[17] = new Car("Granturismo", "Maserati", "120000");
+$carList[18] = new Car("Classe CLS AMG", "Mercedes", "122000");
+$carList[19] = new Car("Classe E Coupe", "Mercedes", "41500");
+$carList[20] = new Car("Ampera", "Opel", "39000");
+$carList[21] = new Car("Astra", "Opel", "20000");
+$carList[22] = new Car("Cascada", "Opel", "25000");
+$carList[23] = new Car("Captur", "Renault", "15500");
+$carList[24] = new Car("Clio", "Renault", "15000");
+$carList[25] = new Car("Espace", "Renault", "30000");
+$carList[26] = new Car("Wraith", "Rolls-Royce", "300500");
+$carList[27] = new Car("Outback", "Subaru", "37000");
+$carList[28] = new Car("WRX STI", "Subaru", "42000");
+$carList[29] = new Car("S", "Tesla", "79000");
+?>
