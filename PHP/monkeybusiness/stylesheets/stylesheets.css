@@ -1,0 +1,22 @@
+body {
+	margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+h1 {
+	font-family: 'Bangers', cursive;
+	margin-left: 280px;
+}
+
+.center {
+	margin-left: 300px;
+}
+
+a:link, a:visited {
+	margin-left: 350px;
+	color: #ff8400;	
+	font-family: 'Bangers', cursive;
+	font-size: 30px;
+	text-decoration: none;
+}

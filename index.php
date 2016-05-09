@@ -22,4 +22,10 @@ echo '<br>';
 echo '<a href="/PHP/loginfunctie/formulier.html">Login functie</a>';
 echo '<br>';
 echo '<a href="/PHP/adminpagina/formulier.php">Admin pagina</a>';
+echo '<br>';
+echo '<a href="/PHP/radiozender/Radioprogramma.php">Radiozender</a>';
+echo '<br>';
+echo '<a href="/PHP/monkeybusiness/resultaat.php">Monkey business</a>';
+echo '<br>';
+echo '<a href="/PHP/mrwheely/index.php">Mr Wheely</a>';
 ?>

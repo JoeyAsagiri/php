@@ -18,5 +18,11 @@ handlers:
 - url: /(.+\.html)$
   script: \1
   
+- url: /PHP/mrwheely/stylesheets
+  static_dir: PHP/mrwheely/stylesheets
+  
+- url: /PHP/monkeybusiness/stylesheets
+  static_dir: PHP/monkeybusiness/stylesheets
+  
 - url: /.*
   script: index.php
