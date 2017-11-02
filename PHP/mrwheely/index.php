@@ -23,6 +23,7 @@
 		<option value="Volkswagen">Volkswagen</option>
 	</select>
 </form>
+
 <?php
 include("car.php");
 include("array.php");
@@ -32,33 +33,12 @@ $prijsmin = $_POST["prijsmin"];
 $prijsmax = $_POST["prijsmax"];
 	
 	if ($merken == ""){
-		foreach ($carList as $value) {
-			echo '<div class="auto">';
-			echo "Merk: ". $value->getMerk();
-			echo "<br>";
-			echo "Prijs: ". $value->getPrijs();
-			echo "<br>";
-			echo "<img src=images/".$value->getFoto().' alt="Car">';
-			echo '</div>';
-		}
-	}
-
-	if ($merken == "Alle merken"){
-		foreach ($carList as $value) {
-			if ($value->getPrijs() > $prijsmin && $value->getPrijs() < $prijsmax) {
-				echo '<div class="auto">';
-				echo "Merk: ". $value->getMerk();
-				echo "<br>";
-				echo "Prijs: ". $value->getPrijs();
-				echo "<br>";
-				echo "<img src=images/".$value->getFoto().' alt="Car">';
-				echo '</div>';
-			}
-		}
+		$prijsmin = 9499;
+		$prijsmax = 222651;
 	}
 	
 	foreach ($carList as $value) {
-		if ($merken == $value->getMerk()) {
+		if ($merken == "" || $merken == "Alle merken" || $merken == $value->getMerk()){	
 			if ($value->getPrijs() > $prijsmin && $value->getPrijs() < $prijsmax) {
 				echo '<div class="auto">';
 				echo "Merk: ". $value->getMerk();
@@ -67,6 +47,7 @@ $prijsmax = $_POST["prijsmax"];
 				echo "<br>";
 				echo "<img src=images/".$value->getFoto().' alt="Car">';
 				echo '</div>';
+				
 			}
 		}
 	}
